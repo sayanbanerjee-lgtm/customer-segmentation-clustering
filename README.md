@@ -1,5 +1,13 @@
 # Customer Segmentation Using RFM Analysis, PCA and Clustering
 
+<escape><div align="center"></escape>
+
+[![Live Dashboard](https://img.shields.io/badge/Streamlit-Live%20Dashboard-FF4B4B?logo=streamlit&logoColor=white)](https://customer-segmentation-clustering-rfm.streamlit.app/)
+
+**[🚀 Launch the Live Dashboard](https://customer-segmentation-clustering-rfm.streamlit.app/)**
+
+<escape></div></escape>
+
 ## 1. Project Overview
 
 This project focuses on segmenting customers of an online retail business based on their purchasing behaviour using statistical analysis and machine learning techniques.
