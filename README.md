@@ -2,8 +2,6 @@
 
 <escape><div align="center"></escape>
 
-## Dashboard Preview
-
 Explore the live customer segmentation dashboard:
 
 [🚀 Open Live Dashboard](https://customer-segmentation-clustering-rfm.streamlit.app/)
