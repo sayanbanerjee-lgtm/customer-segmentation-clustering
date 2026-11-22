@@ -173,26 +173,18 @@ The new-customer prediction feature reuses the fitted Box-Cox transformation par
 ```text
 IDEAS_TIH_CustomerSegmentation/
 │
-├── app/
-│   └── app.py
-│
-├── data/
-│   ├── raw/
-│   └── processed/
-│       ├── cleaned_purchases.csv
-│       ├── customer_rfm.csv
-│       └── customer_pca_scores.csv
-│
-├── models/
-│   └── customer_segmentation_model.joblib
-│
-├── notebook/
-│   └── dataCleaning.ipynb
-│
-├── src/
-├── output/
-│
 ├── README.md
+|
+│── app.py
+│
+├── cleaned_purchases.csv
+├── customer_rfm.csv
+|── customer_pca_scores.csv
+│
+│── customer_segmentation_model.joblib
+|
+│── dataCleaning.ipynb
+│
 └── requirements.txt
 ```
 
