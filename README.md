@@ -6,6 +6,14 @@
 
 **[🚀 Launch the Live Dashboard](https://customer-segmentation-clustering-rfm.streamlit.app/)**
 
+## Dashboard Preview
+
+Explore the live customer segmentation dashboard:
+
+[🚀 Open Live Dashboard](https://customer-segmentation-clustering-rfm.streamlit.app/)
+
+![Customer Segmentation Dashboard - Business Overview](dashboard_overview.png)
+
 <escape></div></escape>
 
 ## 1. Project Overview
