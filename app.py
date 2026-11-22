@@ -20,11 +20,11 @@ st.set_page_config(
 # 2. Project file paths
 # -----------------------------------
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
+PROJECT_ROOT = Path(__file__).resolve().parent
 
-RFM_PATH = PROJECT_ROOT / "data" / "processed" / "customer_rfm.csv"
+RFM_PATH = PROJECT_ROOT / "customer_rfm.csv"
 
-MODEL_PATH = PROJECT_ROOT / "models" / "customer_segmentation_model.joblib"
+MODEL_PATH = PROJECT_ROOT / "customer_segmentation_model.joblib"
 
 # -----------------------------------
 # 3. Load saved data and model
@@ -38,14 +38,11 @@ def load_rfm_data(path):
 def load_model(path):
     return joblib.load(path)
 
-
-
 @st.cache_data
 def load_ipt_data():
 
     customer_ipt = pd.read_csv(
-        PROJECT_ROOT / "data" / "processed" /
-        "customer_purchase_intervals.csv"
+        PROJECT_ROOT / "customer_purchase_intervals.csv"
     )
 
     # Exclude customers without repeat purchases
@@ -54,8 +51,6 @@ def load_ipt_data():
     )
 
     return customer_ipt
-
-
 
 try:
     rfm = load_rfm_data(RFM_PATH)
